@@ -87,6 +87,16 @@ yolov11m.pt
 
 • Demonstrates a scalable approach to content-based visual search using modern object detection
 
+## Output
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/24d48699-3ccd-40df-bca1-71adf2dab236" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/357fbb4a-511c-40b0-b30d-80d4582d3275" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/85664eee-e056-47d8-b35d-683b7e5e9a07" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c96f9d09-5aeb-4202-b1a6-331cecd16e1b" />
+
 ## Result
 
 This system successfully detects objects and retrieves relevant images based on object occurrences.
