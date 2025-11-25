@@ -1,6 +1,4 @@
-# YOLO-COCO-Visual-Search
-
-# 🔍 Computer Vision Powered Image Search Engine using YOLOv11  
+# Computer Vision Powered Image Search Engine using YOLOv11  
 ### *Object Detection–Driven Visual Search Application (Streamlit + YOLOv11)*
 
 This project demonstrates a **computer vision–based image search engine** that identifies and retrieves images containing specific objects using **YOLOv11**, one of the latest and most accurate object detection models.  
@@ -8,7 +6,7 @@ The system analyzes a folder of images, detects objects within them, stores meta
 A simple, interactive **Streamlit** interface makes the search experience smooth and user-friendly.
 
 
-## 🚀 Key Features
+## Key Features
 
 - Object detection powered by **YOLOv11m**  
 - Supports **80 object categories** from the COCO dataset  
@@ -18,16 +16,14 @@ A simple, interactive **Streamlit** interface makes the search experience smooth
 - Works with any user-provided folder of images  
 
 
-## 🗂 Dataset & Model Information
+## Dataset & Model Information
 
 - **Dataset Used:** COCO Validation 2017 (500-image subset)  
 - **Classes:** 80 COCO object categories  
 - **Model:** `yolov11m.pt`  
 - **Framework:** Ultralytics YOLO  
 
----
-
-## 🛠 Environment Setup
+##  Environment Setup
 
 ### 1️⃣ Create and Activate Conda Environment
 
@@ -46,7 +42,7 @@ pip install ultralytics
 pip install streamlit
 pip install pillow scipy psutil
 ```
-### ▶️ Running the Application
+### Running the Application
 
 ## Step 1 — Activate Environment
 
@@ -60,7 +56,7 @@ conda activate yolo_image_search_gpu
 streamlit run app.py
 ```
 
-## 🖥 How to Use the Application
+## How to Use the Application
 
 1. Open the Streamlit interface
 
@@ -81,7 +77,7 @@ yolov11m.pt
 8. View retrieved images that contain the requested object
 
 
-### 📊 Summary
+### Summary
 
 • The system efficiently detects objects across multiple images
 
