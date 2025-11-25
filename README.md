@@ -25,14 +25,14 @@ A simple, interactive **Streamlit** interface makes the search experience smooth
 
 ##  Environment Setup
 
-### 1️⃣ Create and Activate Conda Environment
+### 1️ Create and Activate Conda Environment
 
 ```
 conda create -n yolo_image_search_gpu python=3.11
 conda activate yolo_image_search_gpu
 ```
 
-### 2️⃣ Install Required Dependencies (GPU-Optimized)
+### 2️ Install Required Dependencies (GPU-Optimized)
 
 ```
 pip install "numpy<2" --force-reinstall --no-cache-dir
